@@ -1,0 +1,34 @@
+<!Doctype html>
+    <html>
+        <head>
+            <meta charset="utf-8">
+            <title>to do list</title>
+            <link rel="stylesheet" href="to do .css">
+          
+        </head>
+
+        <body>
+        <div id="container">
+            <div id="heading">
+                WORK TO DO
+            </div><br>
+
+            <div id="paragraphs">
+                <p class="para">Enter text into the input field to add items to your list.</p><br>
+                <p class="para">Click the item to mark it as complete.</p><br>
+                <p class="para">Click the "X" to remove the item from your list.</p><br>
+            </div>
+
+            <div id="enter">
+                <input id="textbox1" type="text" placeholder="Add a to do">  
+                <input id="addButton" type="button" value="Add" onclick=addListItems()>      
+            </div>
+
+            <div id="Items">
+                <ul id="listItems"></ul>
+
+            </div>
+        </div>
+        <script type="text/javascript" src="to do.js"></script>
+        </body>
+    </html>
